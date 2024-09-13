@@ -6,6 +6,13 @@ Here goes the abstract from the paper...
 
 # Dependencies
 
+Code is built on top of pre-existing works referenced below:
+
+[ReLU KAN](https://github.com/quiqi/relu_kan)
+[HRKAN](https://github.com/kelvinhkcs/HRKAN)
+
+We also referenced [Jax KAN](https://github.com/srigas/jaxKAN) in the building of code for solving Partial Differential Equations (PDEs).
+
 Noteable dependencies for reproducibility:
 
 - Pytorch:    Pytorch 2.4.0
@@ -30,5 +37,5 @@ $ conda env create -f rapids.yml
 
 ## Partial Differential Equations
 
-All code for solving of Partial Differential Equations (PDEs) is in the respective notebooks.
+All code for solving of PDEs is in the respective notebooks.
 
