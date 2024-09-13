@@ -9,6 +9,7 @@ Here goes the abstract from the paper...
 Code is built on top of pre-existing works referenced below:
 
 [ReLU KAN](https://github.com/quiqi/relu_kan)
+
 [HRKAN](https://github.com/kelvinhkcs/HRKAN)
 
 We also referenced [Jax KAN](https://github.com/srigas/jaxKAN) in the building of code for solving Partial Differential Equations (PDEs).
