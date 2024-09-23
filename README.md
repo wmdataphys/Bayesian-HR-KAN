@@ -12,11 +12,13 @@ Code is built on top of pre-existing works referenced below:
 
 [HRKAN](https://github.com/kelvinhkcs/HRKAN)
 
+[torch-mnf](https://github.com/janosh/torch-mnf)
+
 We also referenced [Jax KAN](https://github.com/srigas/jaxKAN) in the building of code for solving Partial Differential Equations (PDEs).
 
 Noteable dependencies for reproducibility:
 
-- Pytorch:    Pytorch 2.4.0
+- Pytorch:    2.4.0
 - CUDA:       12.1
 
 Dependencies can be emulated by installing the provided conda environemnt:
