@@ -1,8 +1,8 @@
-# [Bayesian (Higher Order) ReLU KAN]()
+# [Bayesian (Higher Order) ReLU KAN](https://arxiv.org/abs/2410.01687)
 
 # Abstract 
 
-Here goes the abstract from the paper...
+We introduce the first method of uncertainty quantification in the domain of Kolmogorov-Arnold Networks, specifically focusing on (Higher Order) ReLUKANs to enhance computational efficiency given the computational demands of Bayesian methods. The method we propose is general in nature, providing access to both epistemic and aleatoric uncertainties. It is also capable of generalization to other various basis functions. We validate our method through a series of closure tests, including simple one-dimensional functions and application to the domain of (Stochastic) Partial Differential Equations. Referring to the latter, we demonstrate the method's ability to correctly identify functional dependencies introduced through the inclusion of a stochastic term.
 
 # Dependencies
 
@@ -21,7 +21,7 @@ Noteable dependencies for reproducibility:
 - Pytorch:    2.4.0
 - CUDA:       12.1
 
-Dependencies can be emulated by installing the provided conda environemnt:
+Dependencies can be emulated by installing the provided conda environment:
 
 ```
 $ conda env create -f rapids.yml
